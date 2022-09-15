@@ -193,9 +193,26 @@ button {
   margin-bottom: 10px;
 }
 
+.blogs p {
+  font-size: 16px;
+  letter-spacing: .80px;
+}
+
 .blogs .card {
   align-items: start;
 }
+
+.blogs td,
+.blogs th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.blogs ul {
+  padding-left: 25px;
+}
+
+
 
 #modal-background {
   background: rgb(255, 255, 255);

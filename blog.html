@@ -27,19 +27,76 @@
 
       <div class="card">
         <h3>Difference between local storage and session storage</h3>
-        <p></p>
+        <p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Local Storage</th>
+              <th>&nbsp;Session Storage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>The storage capacity of local storage is 5MB/10MB</td>
+              <td>The storage capacity of session storage is 5MB</td>
+            </tr>
+            <tr>
+              <td>As it is not session-based, it must be deleted via javascript or manually</td>
+              <td>It’s session-based and works per window or tab. This means that data is stored only for the duration
+                of a session, i.e., until the browser (or tab) is closed</td>
+            </tr>
+            <tr>
+              <td>The client &nbsp;can only read local storage</td>
+              <td>The client can only read local storage</td>
+            </tr>
+            <tr>
+              <td>There is no transfer of data to the server</td>
+              <td>There is no transfer of data to the server</td>
+            </tr>
+            <tr>
+              <td>There are fewer old browsers that support it</td>
+              <td>There are fewer old browsers that support it</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+        </p>
       </div>
       <div class="card">
         <h3>Difference between global scope and block scope</h3>
-        <p></p>
+        <p><strong>Global Scope</strong> When we declare any variable it has specific scope we can only access that
+          variable on that specific scope,
+          When javascript program start before any function calls which we declare previously it will be on global
+          scope, In a
+          programming environment, the global scope is the scope that contains, and is visible in, all other scopes.</p>
+        <p><strong>Block Level Scope:</strong> This scope restricts the variable that is declared inside a specific
+          block,( exmp.- {} ) from access by
+          the outside of the block. The let & const keyword facilitates the variables to be block scoped. In order to
+          access the variables of that specific block, Variables declared with the
+          var keyword, do not have block scope.</p>
       </div>
       <div class="card">
         <h3>What is event loop in javascript</h3>
-        <p></p>
+        <p>Event loop check if any function is exist or not on the Heap, If callstack is empty and there is no function
+          on Heap then event loop wrap the function and send to call stack for execution, and this is the event loop</p>
       </div>
       <div class="card">
         <h3>How many time we well get undefine </h3>
-        <p></p>
+        <p>
+          These are the eight resons when we will get undefine
+        <ul>
+          <li>variable that is not initialized will give undefined</li>
+          <li> function with no return</li>
+          <li> parameter that is not passed will be undefined</li>
+          <li> if return has nothing on the right side will return undefined</li>
+          <li> property that doesn't exists on an object will give you undefined</li>
+          <li> accessing array elements outside of the index range</li>
+          <li> deleting an element inside an array</li>
+          <li> set a value directly to undefined</li>
+        </ul>
+        </p>
       </div>
 
     </div>
